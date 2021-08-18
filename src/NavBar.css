@@ -1,0 +1,9 @@
+a,
+a::after {
+  text-decoration: none;
+  color: black;
+}
+#NavBar {
+  text-align: center;
+  color: black;
+}

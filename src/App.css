@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  color: black;
+}
+main,
+body {
+  text-align: center;
+  color: black;
+  background-image: url(/src/Assets/SVG/Kander.svg);
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
 }
 
 .App-logo {
