@@ -12,7 +12,7 @@ import { useLightTopShadowStyles } from "@mui-treasury/styles/shadow/lightTop";
 
 const useStyles = makeStyles(() => ({
   root: {
-    maxWidth: 304,
+    maxWidth: 210,
     margin: "auto",
     borderRadius: 0,
     position: "relative",
@@ -48,7 +48,7 @@ export const MovieCards = React.memo(function MovieCards(props) {
             flexDirection={"column"}
             alignItems={"center"}
             justifyContent={"center"}
-            minHeight={360}
+            minHeight={200}
             color={"common.white"}
             textAlign={"center"}
           >
