@@ -4,16 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Running the App
 
 ```bash
-git clone 
-
+git clone https://github.com/Oceanestars/Asian-Erasure.git
+npm ci 
+npm start
 ```
+Make sure to do `git pull` periodically!
 ## Organization
 
 ### Folder structure
 ```
 --- src/
     --- Assets 
-        - Put Images and Timlines here
+        - Put Images and Timelines here
     --- Components
         - Reusable elements
         - Folder for each pages
