@@ -1,20 +1,31 @@
 # Getting Started with this React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Running the App
 
 ```bash
 git clone https://github.com/Oceanestars/Asian-Erasure.git
-npm ci 
+npm ci
 npm start
 ```
+
 Make sure to do `git pull` periodically!
+Are you a collaborator? Create a branch!
+
+```bash
+git checkout -b <branch_name>
+git branch -d <branch_name> (This will delete the branch)
+
+```
+
 ## Organization
 
 ### Folder structure
+
 ```
 --- src/
-    --- Assets 
+    --- Assets
         - Put Images and Timelines here
     --- Components
         - Reusable elements
@@ -22,35 +33,29 @@ Make sure to do `git pull` periodically!
     --- General Files
 
 ```
+
 ### Format/Naming Convention
+
 - Filename: PascalCase
-    `
-    NavBar.js
-    `
+  ` NavBar.js `
 - Component Name: PascalCase
-    ```
-    function NavBar(props) {
-        return (
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-            </ul>
-        );
-    }
-    ```
+  ```
+  function NavBar(props) {
+      return (
+          <ul>
+              <li>Home</li>
+              <li>About Us</li>
+          </ul>
+      );
+  }
+  ```
 - Reference Naming: PascalCase
-    ```
-    import NavBar from './NavBar';
-    ```
+  ```
+  import NavBar from './NavBar';
+  ```
 - Props: camelCase
-    ```
-    <NavBar
-    selectedTab="Home"
-    />
-    ```
-Additionally, using prettier setting to auto format files.
-
-
+  ` <NavBar selectedTab="Home" /> `
+  Additionally, using prettier setting to auto format files.
 
 ## Available Scripts
 
@@ -88,4 +93,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
