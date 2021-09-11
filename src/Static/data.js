@@ -2,7 +2,7 @@ const data = [
     {
         movieName:'Avatar - The Last Airbender',
         description: "The animated version gave many generation the diversity it needed, but the live action fell short",
-        image: './../../Assets/Images/atla.jpeg'
+        image: 'atla2.jpeg'
     },
     {
         movieName:'Test 2',
