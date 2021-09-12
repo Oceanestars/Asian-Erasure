@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+
 .App {
   text-align: center;
   color: black;
@@ -10,11 +12,28 @@ body {
   background-repeat: repeat;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
+  font-size: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h1 {
+  color: #46b893;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 120%;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+ul {
+  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {

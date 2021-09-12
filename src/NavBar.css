@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 a,
 a::after {
   text-decoration: none;
-  color: black;
+  color: #454444;
+  font-size: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
+
 #NavBar {
   text-align: center;
-  color: black;
+  color: #000;
 }
