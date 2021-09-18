@@ -38,9 +38,10 @@ export const MovieCards = React.memo(function MovieCards(props) {
   const styles = useStyles();
   const mediaStyles = useCoverCardMediaStyles();
   const shadowStyles = useLightTopShadowStyles();
+  console.log(props.onClick);
   return (
-    <Card className={cx(styles.root, shadowStyles.root)}>
-      <CardMedia classes={mediaStyles} image={props.data.image} />
+    <Card className={cx(styles.root, shadowStyles.root)} style={{height:"300px"}}>
+      <CardMedia classes={mediaStyles} image={props.data.image} style={{filter: "blur(2px)"}}/>
       <CardActionArea>
         <CardContent className={styles.content}>
           <Box
@@ -52,8 +53,8 @@ export const MovieCards = React.memo(function MovieCards(props) {
             color={"common.white"}
             textAlign={"center"}
           >
-            <h1 className={styles.title}>{props.data.movieName}</h1>
-            <p>{props.data.description}</p>
+            <h1 className={styles.title} style={{backgroundColor:"black"}}>{props.data.movieName}</h1>
+            <p style={{backgroundColor:"black"}}>{props.data.description}</p>
           </Box>
           <Typography className={styles.cta} variant={"overline"}>
             Timeline
