@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ZoomNavigationMenuStyle } from "./NavBar";
 import { Trailblazers } from "./Components/Trailblazers/Trailblazers";
 import { Home } from "./Components/Home/Home";
@@ -12,7 +13,15 @@ function App() {
   return (
     <Router>
       <main>
-        <h1>Asian Erasure</h1>
+        <Link
+          to={{
+            pathname: "/",
+            component: { Home },
+          }}
+        >
+          <h1>Asian Erasure.</h1>
+        </Link>
+
         <nav>
           <ul>
             <ZoomNavigationMenuStyle />
