@@ -15,10 +15,13 @@ const useStyles = makeStyles(() => ({
     margin: 'auto',
     borderRadius: 12,
     padding: 12,
+    height:320,
+    width:250
   },
   media: {
     borderRadius: 6,
   },
+
 }));
 
 export const PersonCards = React.memo(function PersonCards(props) {
@@ -27,6 +30,7 @@ export const PersonCards = React.memo(function PersonCards(props) {
   const textCardContentStyles = useN04TextInfoContentStyles();
   const shadowStyles = useOverShadowStyles({ inactive: true });
   return (
+    <a href={props.data.Links} target="_blank" rel="noreferrer" >
     <Card className={cx(styles.root, shadowStyles.root)}>
       <CardMedia
         className={cx(styles.media, mediaStyles.root)}
@@ -41,6 +45,7 @@ export const PersonCards = React.memo(function PersonCards(props) {
         />
       </CardContent>
     </Card>
+    </a>
   );
 });
 export default PersonCards

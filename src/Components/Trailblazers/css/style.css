@@ -5,3 +5,7 @@ div {
 .N04TextInfoContent-body-12 {
   font-size: 50vw;
 }
+
+.MuiCardMedia-root {
+  background-position: center top;
+}
