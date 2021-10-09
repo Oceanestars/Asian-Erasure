@@ -1,7 +1,31 @@
-import React from 'react';
+import React from "react";
+import data from "../../Static/dataPeople";
+import PersonCards from "./PersonCards";
+import Jumbotron from "./Jumbotron";
 
 export const Trailblazers = () => {
-    const temp = 'Cards To come';
-    return <h1>{temp}</h1>;
-  };
-   
+  return (
+    <div>
+      <div style={{  display: "flex",justifyContent: "center", marginTop:"2%"}}>
+    
+        <Jumbotron />
+      </div>
+      <div  style={{width:'90vw'}}>
+        <ul style={{ display: "flex", justifyContent: "flex-start", flexWrap:"wrap", gap:"3%"}}>
+          {data.map((item) => (
+            <li
+              style={{
+                display: "inline-block",
+
+                marginTop: "6vw",
+                listStyleType: "none",
+              }}
+            >
+              <PersonCards data={item} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};

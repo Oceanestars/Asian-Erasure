@@ -9,21 +9,27 @@ a::after {
   font-weight: 600;
 }
 
-#NavBar {
-  text-align: center;
-  color: #000;
-}
-
-.ZoomNavigationMenu-item-7 {
-  text-transform: capitalize !important;
-}
-
-.ZoomNavigationMenu-item-7:not(:first-child) {
-  margin-left: 80px;
-}
-
 nav ul {
   -webkit-padding-start: 0;
   padding-inline-start: 0;
   margin: 0;
+}
+
+#navBar2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.underline {
+  border-bottom: 3px solid #46b893;
+}
+
+#navBar2 > li:hover {
+  transform: scale(1.5);
 }
