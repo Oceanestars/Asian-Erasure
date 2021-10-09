@@ -6,8 +6,8 @@ import Jumbotron from "./Jumbotron";
 export const Trailblazers = () => {
   return (
     <div>
-      <div>
-        {" "}
+      <div style={{  display: "flex",justifyContent: "center", marginTop:"2%"}}>
+    
         <Jumbotron />
       </div>
       <div  style={{width:'90vw'}}>
