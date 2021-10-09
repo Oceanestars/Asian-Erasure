@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Asian-Erasure/static/css/main.307dfc49.chunk.css",
-    "main.js": "/Asian-Erasure/static/js/main.b67e5f59.chunk.js",
-    "main.js.map": "/Asian-Erasure/static/js/main.b67e5f59.chunk.js.map",
-    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js",
-    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js.map",
-    "static/js/2.a8347bb3.chunk.js": "/Asian-Erasure/static/js/2.a8347bb3.chunk.js",
-    "static/js/2.a8347bb3.chunk.js.map": "/Asian-Erasure/static/js/2.a8347bb3.chunk.js.map",
-    "static/js/3.1552a5a2.chunk.js": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js",
-    "static/js/3.1552a5a2.chunk.js.map": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js.map",
+    "main.css": "/Asian-Erasure/static/css/main.bdd5052c.chunk.css",
+    "main.js": "/Asian-Erasure/static/js/main.47b8c3f6.chunk.js",
+    "main.js.map": "/Asian-Erasure/static/js/main.47b8c3f6.chunk.js.map",
+    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.06be0383.js",
+    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.06be0383.js.map",
+    "static/js/2.d53bd3c9.chunk.js": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js",
+    "static/js/2.d53bd3c9.chunk.js.map": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js.map",
+    "static/js/3.469330f1.chunk.js": "/Asian-Erasure/static/js/3.469330f1.chunk.js",
+    "static/js/3.469330f1.chunk.js.map": "/Asian-Erasure/static/js/3.469330f1.chunk.js.map",
     "index.html": "/Asian-Erasure/index.html",
-    "static/css/main.307dfc49.chunk.css.map": "/Asian-Erasure/static/css/main.307dfc49.chunk.css.map",
-    "static/js/2.a8347bb3.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.a8347bb3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Asian-Erasure/static/media/Kander.89ac61ad.svg"
+    "static/css/main.bdd5052c.chunk.css.map": "/Asian-Erasure/static/css/main.bdd5052c.chunk.css.map",
+    "static/js/2.d53bd3c9.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Asian-Erasure/static/media/BackgroundPatterns.b14cce74.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a29a9db.js",
-    "static/js/2.a8347bb3.chunk.js",
-    "static/css/main.307dfc49.chunk.css",
-    "static/js/main.b67e5f59.chunk.js"
+    "static/js/runtime-main.06be0383.js",
+    "static/js/2.d53bd3c9.chunk.js",
+    "static/css/main.bdd5052c.chunk.css",
+    "static/js/main.47b8c3f6.chunk.js"
   ]
 }
