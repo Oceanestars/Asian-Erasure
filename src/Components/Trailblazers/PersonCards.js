@@ -20,7 +20,12 @@ const useStyles = makeStyles(() => ({
   },
   media: {
     borderRadius: 6,
+  
   },
+  image: {
+    position:'relative',
+    top:'200px',
+  }
 
 }));
 
@@ -35,6 +40,7 @@ export const PersonCards = React.memo(function PersonCards(props) {
       <CardMedia
         className={cx(styles.media, mediaStyles.root)}
         image={props.data.Image}
+        alt={props.data.FirstName + ' ' +  props.data.LastName + ' photo' }
       />
       <CardContent>
         <TextInfoContent

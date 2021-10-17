@@ -45,7 +45,7 @@ export const MovieCards = React.memo(function MovieCards(props) {
       <CardActionArea>
         <CardContent className={styles.content}>
           <Box
-            display={"flex"}
+
             flexDirection={"column"}
             alignItems={"center"}
             justifyContent={"center"}
