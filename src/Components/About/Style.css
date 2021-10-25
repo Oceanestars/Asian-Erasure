@@ -1,0 +1,19 @@
+.ProfileContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.BioContainerLeft {
+  order: 1;
+}
+.BioContainerRight {
+  order: 2;
+}
+.HeadshotContainerLeft {
+  order: 1;
+}
+.HeadshotContainerRight {
+  order: 2;
+}
