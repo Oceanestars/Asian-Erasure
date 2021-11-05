@@ -1,5 +1,11 @@
-div {
+#jumbotronStyle {
   margin: auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+  height: 300px;
+  margin-bottom: 100px;
 }
 
 .N04TextInfoContent-body-12 {
@@ -9,3 +15,15 @@ div {
 .MuiCardMedia-root {
   background-position: center top;
 }
+
+#trailblazer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* padding-left: -40px; */
+}
+
+/* #trailblazer li {
+  margin-top: 6vw;
+  list-style-type: none;
+} */

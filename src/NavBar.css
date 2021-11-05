@@ -18,6 +18,8 @@ nav ul {
 #navBar2 {
   display: flex;
   justify-content: space-evenly;
+  margin: 50px 0;
+  position: static;
 }
 
 li {

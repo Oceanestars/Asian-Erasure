@@ -2,7 +2,8 @@ import React, { useState }  from "react";
 import MovieCards from "./MovieCards";
 import data from "../../Static/data";
 export const Pitfalls = () => {
-  var firstTimeline = [<iframe title='Avatar the Last airbender timeline' src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=14RIgj96O9WoD0wLOHoPhuvcY0p_FUpsqum_FcDJn-JI&font=Default&lang=en&initial_zoom=2&height=550' width='90%' height='550' webkitallowfullscreen mozallowfullscreen allowFullScreen frameBorder='0'></iframe>];
+  var firstTimeline = [<iframe title="All movies timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1Ugphq-UldTUr2h1yau_PtlkUir33sJGTygKj9luDi38&font=Default&lang=en&initial_zoom=2&height=650' width='90%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+];
   const [currentTimeline, setTimeline] = useState(firstTimeline);
   const temp = "Relevant Movies \n";
   return (

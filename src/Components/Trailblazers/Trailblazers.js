@@ -7,20 +7,12 @@ export const Trailblazers = () => {
   return (
     <div>
       <div style={{  display: "flex",justifyContent: "center", marginTop:"2%"}}>
-    
         <Jumbotron />
       </div>
-      <div  style={{width:'90vw'}}>
-        <ul style={{ display: "flex", justifyContent: "flex-start", flexWrap:"wrap", gap:"3%"}}>
+      <div  style={{width:'100vw'}}>
+        <ul id="trailblazer">
           {data.map((item) => (
-            <li
-              style={{
-                display: "inline-block",
-
-                marginTop: "6vw",
-                listStyleType: "none",
-              }}
-            >
+            <li>
               <PersonCards data={item} />
             </li>
           ))}

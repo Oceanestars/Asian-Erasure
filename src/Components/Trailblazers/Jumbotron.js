@@ -3,10 +3,11 @@ import Box from "@material-ui/core/Box";
 import CardContent from "@material-ui/core/CardContent";
 import TextInfoContent from "@mui-treasury/components/content/textInfo";
 import { useN04TextInfoContentStyles } from "@mui-treasury/styles/textInfoContent/n04";
+import "./css/style.css";
 
 const Jumbotron = () => {
   return (
-    <div style={{textAlign:'center'}}> 
+    <div id='jumbotronStyle'> 
       <Box maxWidth={1000}>
         <CardContent>
           <TextInfoContent

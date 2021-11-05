@@ -30,11 +30,12 @@ h1 {
   letter-spacing: 2px;
   text-align: center;
   margin-top: 35px;
-  margin-bottom: 0;
+  margin-bottom: -400px;
 }
 
 ul {
   display: inline-block;
+  margin-bottom: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
