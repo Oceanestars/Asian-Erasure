@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Asian-Erasure/static/css/main.bdd5052c.chunk.css",
-    "main.js": "/Asian-Erasure/static/js/main.47b8c3f6.chunk.js",
-    "main.js.map": "/Asian-Erasure/static/js/main.47b8c3f6.chunk.js.map",
-    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.06be0383.js",
-    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.06be0383.js.map",
-    "static/js/2.d53bd3c9.chunk.js": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js",
-    "static/js/2.d53bd3c9.chunk.js.map": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js.map",
-    "static/js/3.469330f1.chunk.js": "/Asian-Erasure/static/js/3.469330f1.chunk.js",
-    "static/js/3.469330f1.chunk.js.map": "/Asian-Erasure/static/js/3.469330f1.chunk.js.map",
+    "main.css": "/Asian-Erasure/static/css/main.f30e5b9b.chunk.css",
+    "main.js": "/Asian-Erasure/static/js/main.638726c7.chunk.js",
+    "main.js.map": "/Asian-Erasure/static/js/main.638726c7.chunk.js.map",
+    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.eb4399f6.js",
+    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.eb4399f6.js.map",
+    "static/js/2.8b58960b.chunk.js": "/Asian-Erasure/static/js/2.8b58960b.chunk.js",
+    "static/js/2.8b58960b.chunk.js.map": "/Asian-Erasure/static/js/2.8b58960b.chunk.js.map",
+    "static/js/3.5b6eaef7.chunk.js": "/Asian-Erasure/static/js/3.5b6eaef7.chunk.js",
+    "static/js/3.5b6eaef7.chunk.js.map": "/Asian-Erasure/static/js/3.5b6eaef7.chunk.js.map",
     "index.html": "/Asian-Erasure/index.html",
-    "static/css/main.bdd5052c.chunk.css.map": "/Asian-Erasure/static/css/main.bdd5052c.chunk.css.map",
-    "static/js/2.d53bd3c9.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.d53bd3c9.chunk.js.LICENSE.txt",
+    "static/css/main.f30e5b9b.chunk.css.map": "/Asian-Erasure/static/css/main.f30e5b9b.chunk.css.map",
+    "static/js/2.8b58960b.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.8b58960b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Asian-Erasure/static/media/BackgroundPatterns.b14cce74.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06be0383.js",
-    "static/js/2.d53bd3c9.chunk.js",
-    "static/css/main.bdd5052c.chunk.css",
-    "static/js/main.47b8c3f6.chunk.js"
+    "static/js/runtime-main.eb4399f6.js",
+    "static/js/2.8b58960b.chunk.js",
+    "static/css/main.f30e5b9b.chunk.css",
+    "static/js/main.638726c7.chunk.js"
   ]
 }
