@@ -1,0 +1,88 @@
+.ProfileContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.OurStoryContainer {
+  max-width: 860px;
+  border: 1px solid #797979;
+  margin: 20px auto;
+  border-radius: 10%;
+  padding: 60px 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.OurStoryContainer h1 {
+  color: #46b893;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.OurStoryContainer p {
+  color: #454444;
+  font-family: "Nunito", Helvetica, sans-serif;
+  line-height: 32px;
+  font-size: 18px;
+  max-width: 660px;
+  margin: 35px auto 0;
+}
+
+.TeamMemberContainer {
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+.TeamMemberContainer h2 {
+  color: #454444;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.TeamMemberContainer h2:after {
+  color: #454444;
+  content: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg);
+}
+
+.TeamMemberContainer h3 {
+  color: #454444;
+  font-family: "Playfair Display", Times, serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.TeamMemberContainer p {
+  color: #454444;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.ProfileContainer:not(:last-of-type) {
+  margin-bottom: 50px;
+}
+
+.BioContainerLeft {
+  order: 1;
+  background-color: #fff;
+}
+.BioContainerRight {
+  order: 2;
+  background-color: #fff;
+}
+.HeadshotContainerLeft {
+  order: 1;
+}
+.HeadshotContainerRight {
+  order: 2;
+}

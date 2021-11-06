@@ -7,12 +7,11 @@ import { AboutUs } from "./Components/About/AboutUs";
 
 import "./App.css";
 
-
 function App() {
   return (
     <BrowserRouter>
       <main>
-      <h1>Asian Erasure.</h1>
+        <h1>Asian Erasure.</h1>
         <nav>
           <ul>
             <ZoomNavigationMenuStyle />
@@ -20,10 +19,10 @@ function App() {
         </nav>
         <Switch>
           <Route exact path="/">
-              <Redirect to="/home" />
+            <Redirect to="/home" />
           </Route>
           <Route exact path="/Asian-Erasure">
-              <Redirect to="/home" />
+            <Redirect to="/home" />
           </Route>
           <Route path="/home">
             <Home />
@@ -39,6 +38,9 @@ function App() {
           </Route>
         </Switch>
       </main>
+      <footer>
+        <p>Made with ❤️ by Grace, Oceane, Dan.</p>
+      </footer>
     </BrowserRouter>
   );
 }

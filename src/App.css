@@ -60,6 +60,16 @@ ul {
   color: #61dafb;
 }
 
+footer {
+  margin-top: 100px;
+}
+footer p {
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #454444;
+}
+
 @-webkit-keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

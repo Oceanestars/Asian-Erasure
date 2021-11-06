@@ -1,5 +1,6 @@
 import React from "react";
 import PersonProfile from "./Profile";
+import "./css/Style.css";
 
 export const AboutUs = () => {
   const title = "Our story";
@@ -15,15 +16,6 @@ export const AboutUs = () => {
       <div className="TeamMemberContainer">
         <h2>Team members</h2>
         <ul>
-          {/* {data.map((item, index) => (
-            <li key={index}>
-              <PersonProfile
-                data={item}
-                // classImg={classImg}
-                // classTxt={classTxt}
-              />
-            </li>
-          ))} */}
           <PersonProfile />
         </ul>
       </div>

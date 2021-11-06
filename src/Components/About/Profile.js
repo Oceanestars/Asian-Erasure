@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../Static/dataProfile";
-import "./Style.css";
+import "./css/Style.css";
+import ProfilePlaceholder from "../../Assets/Graphics/KittyPlaceholder.svg";
 
 export const PersonProfile = React.memo(function PersonProfile() {
   return (
@@ -15,7 +16,7 @@ export const PersonProfile = React.memo(function PersonProfile() {
                 : "BioContainer BioContainerRight"
             }
           >
-            <h3>{item.Name}</h3>
+            <h3 style={{ color: item.Color }}>{item.Name}</h3>
             <p>{item.Bio}</p>
           </div>
           <div
@@ -26,7 +27,7 @@ export const PersonProfile = React.memo(function PersonProfile() {
                 : "HeadshotContainer HeadshotContainerLeftt"
             }
           >
-            <img src={item.ProfilePic} alt={item.ProfilePicAlt} />
+            <img src={ProfilePlaceholder} alt={item.ProfilePicAlt} />
           </div>
         </li>
       ))}

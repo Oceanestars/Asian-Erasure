@@ -5,6 +5,7 @@ const data = [
     ProfilePic:
       "https://live.staticflickr.com/65535/51546408838_c9a1f527dc.jpg",
     ProfilePicAlt: "Grace Profile Picture",
+    Color: "#4162AA",
   },
   {
     Name: "Océane",
@@ -12,6 +13,7 @@ const data = [
     ProfilePic:
       "https://live.staticflickr.com/65535/51546408838_c9a1f527dc.jpg",
     ProfilePicAlt: "Océane Profile Picture",
+    Color: "#DF6B50",
   },
   {
     Name: "Dan",
@@ -19,6 +21,7 @@ const data = [
     ProfilePic:
       "https://live.staticflickr.com/65535/51546408838_c9a1f527dc.jpg",
     ProfilePicAlt: "Dan Profile Picture",
+    Color: "#54C7EE",
   },
 ];
 export default data;
