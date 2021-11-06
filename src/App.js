@@ -22,6 +22,9 @@ function App() {
           <Route exact path="/">
               <Redirect to="/home" />
           </Route>
+          <Route exact path="/Asian-Erasure">
+              <Redirect to="/home" />
+          </Route>
           <Route path="/home">
             <Home />
           </Route>
