@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+
 .ProfileContainer {
   display: flex;
   justify-content: space-evenly;
@@ -44,21 +46,41 @@
   font-weight: 700;
   font-size: 26px;
   text-transform: capitalize;
-  margin-top: 0;
-}
-
-.TeamMemberContainer h2:after {
-  color: #454444;
-  content: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg);
+  max-width: 200px;
+  margin: 0 auto 10px;
+  border-bottom: 10px solid transparent;
+  padding: 5px;
+  -o-border-image: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg) 60
+    round;
+  border-image: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg) 60 round;
 }
 
 .TeamMemberContainer h3 {
-  color: #454444;
   font-family: "Playfair Display", Times, serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: capitalize;
-  margin-top: 0;
+  max-width: 75px;
+  margin: 0 auto 24px;
+  border-bottom: 10px solid transparent;
+  padding: 5px;
+}
+
+.TeamMemberContainer li:first-of-type h3 {
+  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
+  border-image: url(../../../Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
+}
+
+.TeamMemberContainer li:nth-last-of-type(2) h3 {
+  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineOrange.svg) 15
+    round;
+  border-image: url(../../../Assets/Graphics/WaveUnderlineOrange.svg) 15 round;
+}
+
+.TeamMemberContainer li:last-of-type h3 {
+  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineNeonBlue.svg) 15
+    round;
+  border-image: url(../../../Assets/Graphics/WaveUnderlineNeonBlue.svg) 15 round;
 }
 
 .TeamMemberContainer p {
