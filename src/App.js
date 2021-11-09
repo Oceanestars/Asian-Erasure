@@ -13,7 +13,7 @@ function App() {
       <main>
         <h1>Asian Erasure.</h1>
         <nav>
-          <ul>
+          <ul style={{display:"inline-block", marginBottom: "50px"}}>
             <ZoomNavigationMenuStyle />
           </ul>
         </nav>

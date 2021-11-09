@@ -34,10 +34,10 @@ h1 {
   margin-bottom: -400px;
 }
 
-ul {
+/* ul {
   display: inline-block;
   margin-bottom: 50px;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -62,8 +62,9 @@ ul {
 }
 
 footer {
-  margin-top: 100px;
+  margin: 100px 0;
 }
+
 footer p {
   font-family: "Nunito", Helvetica, sans-serif;
   font-size: 14px;

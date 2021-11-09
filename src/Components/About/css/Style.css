@@ -9,7 +9,8 @@
 
 .OurStoryContainer {
   max-width: 860px;
-  border: 1px solid #797979;
+  /* border: 1px solid #797979; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 20px auto;
   border-radius: 10%;
   padding: 60px 5px;
