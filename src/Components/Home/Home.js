@@ -3,17 +3,17 @@ import "./style.css";
 
 export const Home = () => {
     return(
-      <div>
-        <div className="Header">
+      <div style={{width:"100%"}}>
+        <div id="jumbotronStyle">
+        <span className="topHeader">Homepage</span>
+
           <h2>Welcome to Asian Erasure</h2>
-          <p>This website is a culmination of data related to the AAPI community.<br></br>
-          You can learn about <span>trailblazer</span> who forged a path for more Asian media representation.<br></br>
-          You can also learn about the mistakes from the past by looking at where the industry had some <span>pitfalls</span>.
+          <p className="bodyJumbotron">The stories that we tell matter. Throughout the history of film in the United States of America, Asian and Pacific Islander 
+            communities have been flattened and erased on film. Often played by white actors or hideously caricatured, cultures have been made into laughing stocks or demonized. 
+            Read about <span><a id="NavOverride" href="../Pitfalls/Pitfalls.js">pitfall</a></span> in representation and the <span><a id="NavOverride" href="../Trailblazers/Trailblazers.js">trailblazers</a></span> within the AAPI community lighting the way to a more inclusive future.<br></br>
           </p>
         </div>
       </div>
-
-
     );
   };
    

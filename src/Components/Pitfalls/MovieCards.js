@@ -23,14 +23,16 @@ const useStyles = makeStyles(() => ({
   cta: {
     display: "block",
     textAlign: "center",
-    color: "#fff",
+    color: "black",
     letterSpacing: "3px",
     fontWeight: 200,
     fontSize: 12,
+    backgroundColor: "white",
   },
   title: {
     color: "#fff",
     letterSpacing: "2px",
+    marginTop:"70px",
   },
 }));
 
@@ -54,7 +56,7 @@ export const MovieCards = React.memo(function MovieCards(props) {
             textAlign={"center"}
           >
             <h1 className={styles.title} style={{backgroundColor:"black"}}>{props.data.movieName}</h1>
-            <p style={{backgroundColor:"black"}}>{props.data.description}</p>
+            {/* <p style={{backgroundColor:"black"}}>{props.data.description}</p> */}
           </Box>
           <Typography className={styles.cta} variant={"overline"}>
             Timeline
