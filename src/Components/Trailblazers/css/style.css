@@ -1,11 +1,13 @@
 #jumbotronStyle {
+  border: 1px solid #797979;
+
   margin: auto;
   text-align: center;
   background-color: white;
   /* box-shadow: 5px 10px 8px #888888; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
-  height: 200px;
+  border-radius: 30px;
+  height: 100%;
   margin-bottom: 50px;
   font-family: "Nunito";
   width: 70%;
@@ -36,6 +38,7 @@
 #explanationTrailblazer {
   display: flex;
   justify-content: center;
+  height: auto;
 }
 
 #jumbotronStyle h2 {
