@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Asian-Erasure/static/css/main.f30e5b9b.chunk.css",
-    "main.js": "/Asian-Erasure/static/js/main.638726c7.chunk.js",
-    "main.js.map": "/Asian-Erasure/static/js/main.638726c7.chunk.js.map",
-    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.eb4399f6.js",
-    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.eb4399f6.js.map",
-    "static/js/2.8b58960b.chunk.js": "/Asian-Erasure/static/js/2.8b58960b.chunk.js",
-    "static/js/2.8b58960b.chunk.js.map": "/Asian-Erasure/static/js/2.8b58960b.chunk.js.map",
-    "static/js/3.5b6eaef7.chunk.js": "/Asian-Erasure/static/js/3.5b6eaef7.chunk.js",
-    "static/js/3.5b6eaef7.chunk.js.map": "/Asian-Erasure/static/js/3.5b6eaef7.chunk.js.map",
+    "main.css": "/Asian-Erasure/static/css/main.d9a31d0a.chunk.css",
+    "main.js": "/Asian-Erasure/static/js/main.c8db44f4.chunk.js",
+    "main.js.map": "/Asian-Erasure/static/js/main.c8db44f4.chunk.js.map",
+    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js",
+    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js.map",
+    "static/js/2.12b3cbea.chunk.js": "/Asian-Erasure/static/js/2.12b3cbea.chunk.js",
+    "static/js/2.12b3cbea.chunk.js.map": "/Asian-Erasure/static/js/2.12b3cbea.chunk.js.map",
+    "static/js/3.1552a5a2.chunk.js": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js",
+    "static/js/3.1552a5a2.chunk.js.map": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js.map",
     "index.html": "/Asian-Erasure/index.html",
-    "static/css/main.f30e5b9b.chunk.css.map": "/Asian-Erasure/static/css/main.f30e5b9b.chunk.css.map",
-    "static/js/2.8b58960b.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.8b58960b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Asian-Erasure/static/media/BackgroundPatterns.b14cce74.svg"
+    "static/css/main.d9a31d0a.chunk.css.map": "/Asian-Erasure/static/css/main.d9a31d0a.chunk.css.map",
+    "static/js/2.12b3cbea.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.12b3cbea.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Asian-Erasure/static/media/BackgroundPatterns.b14cce74.svg",
+    "static/media/KittyPlaceholder.02fa87f9.svg": "/Asian-Erasure/static/media/KittyPlaceholder.02fa87f9.svg",
+    "static/media/Style.css": "/Asian-Erasure/static/media/WaveUnderlinesDouble.805d3ff6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb4399f6.js",
-    "static/js/2.8b58960b.chunk.js",
-    "static/css/main.f30e5b9b.chunk.css",
-    "static/js/main.638726c7.chunk.js"
+    "static/js/runtime-main.5a29a9db.js",
+    "static/js/2.12b3cbea.chunk.js",
+    "static/css/main.d9a31d0a.chunk.css",
+    "static/js/main.c8db44f4.chunk.js"
   ]
 }
