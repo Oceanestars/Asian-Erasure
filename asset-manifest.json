@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/asianerasure.com/static/css/main.d48ef6c3.chunk.css",
-    "main.js": "/asianerasure.com/static/js/main.ec3e96fb.chunk.js",
-    "main.js.map": "/asianerasure.com/static/js/main.ec3e96fb.chunk.js.map",
-    "runtime-main.js": "/asianerasure.com/static/js/runtime-main.e450fdb6.js",
-    "runtime-main.js.map": "/asianerasure.com/static/js/runtime-main.e450fdb6.js.map",
-    "static/js/2.b9e9d52c.chunk.js": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js",
-    "static/js/2.b9e9d52c.chunk.js.map": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js.map",
-    "static/js/3.1552a5a2.chunk.js": "/asianerasure.com/static/js/3.1552a5a2.chunk.js",
-    "static/js/3.1552a5a2.chunk.js.map": "/asianerasure.com/static/js/3.1552a5a2.chunk.js.map",
-    "index.html": "/asianerasure.com/index.html",
-    "static/css/main.d48ef6c3.chunk.css.map": "/asianerasure.com/static/css/main.d48ef6c3.chunk.css.map",
-    "static/js/2.b9e9d52c.chunk.js.LICENSE.txt": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/asianerasure.com/static/media/BackgroundPatterns.b14cce74.svg",
-    "static/media/HeaderImage.6f1f033e.png": "/asianerasure.com/static/media/HeaderImage.6f1f033e.png",
-    "static/media/KittyPlaceholder.02fa87f9.svg": "/asianerasure.com/static/media/KittyPlaceholder.02fa87f9.svg",
-    "static/media/Style.css": "/asianerasure.com/static/media/WaveUnderlinesDouble.805d3ff6.svg"
+    "main.css": "/static/css/main.0ea36383.chunk.css",
+    "main.js": "/static/js/main.ec3e96fb.chunk.js",
+    "main.js.map": "/static/js/main.ec3e96fb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c99ae10c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c99ae10c.js.map",
+    "static/js/2.b9e9d52c.chunk.js": "/static/js/2.b9e9d52c.chunk.js",
+    "static/js/2.b9e9d52c.chunk.js.map": "/static/js/2.b9e9d52c.chunk.js.map",
+    "static/js/3.1552a5a2.chunk.js": "/static/js/3.1552a5a2.chunk.js",
+    "static/js/3.1552a5a2.chunk.js.map": "/static/js/3.1552a5a2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0ea36383.chunk.css.map": "/static/css/main.0ea36383.chunk.css.map",
+    "static/js/2.b9e9d52c.chunk.js.LICENSE.txt": "/static/js/2.b9e9d52c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/BackgroundPatterns.b14cce74.svg",
+    "static/media/HeaderImage.6f1f033e.png": "/static/media/HeaderImage.6f1f033e.png",
+    "static/media/KittyPlaceholder.02fa87f9.svg": "/static/media/KittyPlaceholder.02fa87f9.svg",
+    "static/media/Style.css": "/static/media/WaveUnderlinesDouble.805d3ff6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e450fdb6.js",
+    "static/js/runtime-main.c99ae10c.js",
     "static/js/2.b9e9d52c.chunk.js",
-    "static/css/main.d48ef6c3.chunk.css",
+    "static/css/main.0ea36383.chunk.css",
     "static/js/main.ec3e96fb.chunk.js"
   ]
 }
