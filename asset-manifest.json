@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Asian-Erasure/static/css/main.ea6ca7cb.chunk.css",
-    "main.js": "/Asian-Erasure/static/js/main.ec3e96fb.chunk.js",
-    "main.js.map": "/Asian-Erasure/static/js/main.ec3e96fb.chunk.js.map",
-    "runtime-main.js": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js",
-    "runtime-main.js.map": "/Asian-Erasure/static/js/runtime-main.5a29a9db.js.map",
-    "static/js/2.b9e9d52c.chunk.js": "/Asian-Erasure/static/js/2.b9e9d52c.chunk.js",
-    "static/js/2.b9e9d52c.chunk.js.map": "/Asian-Erasure/static/js/2.b9e9d52c.chunk.js.map",
-    "static/js/3.1552a5a2.chunk.js": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js",
-    "static/js/3.1552a5a2.chunk.js.map": "/Asian-Erasure/static/js/3.1552a5a2.chunk.js.map",
-    "index.html": "/Asian-Erasure/index.html",
-    "static/css/main.ea6ca7cb.chunk.css.map": "/Asian-Erasure/static/css/main.ea6ca7cb.chunk.css.map",
-    "static/js/2.b9e9d52c.chunk.js.LICENSE.txt": "/Asian-Erasure/static/js/2.b9e9d52c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Asian-Erasure/static/media/BackgroundPatterns.b14cce74.svg",
-    "static/media/HeaderImage.6f1f033e.png": "/Asian-Erasure/static/media/HeaderImage.6f1f033e.png",
-    "static/media/KittyPlaceholder.02fa87f9.svg": "/Asian-Erasure/static/media/KittyPlaceholder.02fa87f9.svg",
-    "static/media/Style.css": "/Asian-Erasure/static/media/WaveUnderlinesDouble.805d3ff6.svg"
+    "main.css": "/asianerasure.com/static/css/main.d48ef6c3.chunk.css",
+    "main.js": "/asianerasure.com/static/js/main.ec3e96fb.chunk.js",
+    "main.js.map": "/asianerasure.com/static/js/main.ec3e96fb.chunk.js.map",
+    "runtime-main.js": "/asianerasure.com/static/js/runtime-main.e450fdb6.js",
+    "runtime-main.js.map": "/asianerasure.com/static/js/runtime-main.e450fdb6.js.map",
+    "static/js/2.b9e9d52c.chunk.js": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js",
+    "static/js/2.b9e9d52c.chunk.js.map": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js.map",
+    "static/js/3.1552a5a2.chunk.js": "/asianerasure.com/static/js/3.1552a5a2.chunk.js",
+    "static/js/3.1552a5a2.chunk.js.map": "/asianerasure.com/static/js/3.1552a5a2.chunk.js.map",
+    "index.html": "/asianerasure.com/index.html",
+    "static/css/main.d48ef6c3.chunk.css.map": "/asianerasure.com/static/css/main.d48ef6c3.chunk.css.map",
+    "static/js/2.b9e9d52c.chunk.js.LICENSE.txt": "/asianerasure.com/static/js/2.b9e9d52c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/asianerasure.com/static/media/BackgroundPatterns.b14cce74.svg",
+    "static/media/HeaderImage.6f1f033e.png": "/asianerasure.com/static/media/HeaderImage.6f1f033e.png",
+    "static/media/KittyPlaceholder.02fa87f9.svg": "/asianerasure.com/static/media/KittyPlaceholder.02fa87f9.svg",
+    "static/media/Style.css": "/asianerasure.com/static/media/WaveUnderlinesDouble.805d3ff6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a29a9db.js",
+    "static/js/runtime-main.e450fdb6.js",
     "static/js/2.b9e9d52c.chunk.js",
-    "static/css/main.ea6ca7cb.chunk.css",
+    "static/css/main.d48ef6c3.chunk.css",
     "static/js/main.ec3e96fb.chunk.js"
   ]
 }
