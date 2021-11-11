@@ -51,9 +51,9 @@
   margin: 0 auto 10px;
   border-bottom: 10px solid transparent;
   padding: 5px;
-  -o-border-image: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg) 60
+  -o-border-image: url(../public/Assets/Graphics/WaveUnderlinesDouble.svg) 60
     round;
-  border-image: url(../../../Assets/Graphics/WaveUnderlinesDouble.svg) 60 round;
+  border-image: url(../public/Assets/Graphics/WaveUnderlinesDouble.svg) 60 round;
 }
 
 .TeamMemberContainer h3 {
@@ -68,20 +68,21 @@
 }
 
 .TeamMemberContainer li:first-of-type h3 {
-  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
-  border-image: url(../../../Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
+  -o-border-image: url(../public/Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
+  border-image: url(../public/Assets/Graphics/WaveUnderlineBlue.svg) 15 round;
 }
 
 .TeamMemberContainer li:nth-last-of-type(2) h3 {
-  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineOrange.svg) 15
+  -o-border-image: url(../public/Assets/Graphics/WaveUnderlineOrange.svg) 15
     round;
-  border-image: url(../../../Assets/Graphics/WaveUnderlineOrange.svg) 15 round;
+  border-image: url(../public/Assets/Graphics/WaveUnderlineOrange.svg) 15 round;
 }
 
 .TeamMemberContainer li:last-of-type h3 {
-  -o-border-image: url(../../../Assets/Graphics/WaveUnderlineNeonBlue.svg) 15
+  -o-border-image: url(../public/Assets/Graphics/WaveUnderlineNeonBlue.svg) 15
     round;
-  border-image: url(../../../Assets/Graphics/WaveUnderlineNeonBlue.svg) 15 round;
+  border-image: url(../public/Assets/Graphics/WaveUnderlineNeonBlue.svg) 15
+    round;
 }
 
 .TeamMemberContainer p {

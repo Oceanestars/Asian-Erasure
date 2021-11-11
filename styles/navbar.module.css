@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 50px 0;
+  /* position: static; */
+}
+
+.underline {
+  font-size: 1em;
+}
+
+.underline:hover {
+  transform: scale(1.5);
+}
+
+.active {
+  border-bottom: 3px solid #46b893;
+}
