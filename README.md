@@ -1,13 +1,13 @@
 # Getting Started with this React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Next.js](https://nextjs.org/).
 
 ## Running the App
 
 ```bash
 git clone https://github.com/Oceanestars/Asian-Erasure.git
 npm ci
-npm start
+npm run dev
 ```
 
 Make sure to do `git pull` periodically!
@@ -24,23 +24,31 @@ git branch -d <branch_name> (This will delete the branch)
 ### Folder structure
 
 ```
---- src/
+--- components/
+    --- These a our react components that our pages uses
+--- pages/
+    --- Each of our pages is like our nav item in the nav bar
+--- public/
     --- Assets
-        - Put Images and Timelines here
-    --- Components
-        - Reusable elements
-        - Folder for each pages
-    --- General Files
+        - Currently old asset folder before conversion to Next.JS
+    --- Images
+    --- Static
+        - Data
+--- styles/
+    - We have CSS module and SASS is installed so if you'd like to do sass just change the css file to end with scss (like the global file)
+    - The underscore means it's a partial file (SASS), if you have css file being repeated across files, please use a partials file
+    - If you are new to SASS please read [the sass guide](https://sass-lang.com/guide)
+
 
 ```
 
 ### Format/Naming Convention
 
-- Filename: PascalCase
-  ` NavBar.js `
+- Filename: Lower case
+  `navbar.js`
 - Component Name: PascalCase
   ```
-  function NavBar(props) {
+  function Navbar(props) {
       return (
           <ul>
               <li>Home</li>
@@ -51,17 +59,17 @@ git branch -d <branch_name> (This will delete the branch)
   ```
 - Reference Naming: PascalCase
   ```
-  import NavBar from './NavBar';
+  import Navbar from './navbar';
   ```
 - Props: camelCase
-  ` <NavBar selectedTab="Home" /> `
+  `<Navbar selectedTab="Home" />`
   Additionally, using prettier setting to auto format files.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -69,27 +77,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+next build(aka npn run build) creates an optimized production build of your application. The output displays information about each route.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Size – The number of assets downloaded when navigating to the page client-side. The size for each route only includes its dependencies.
+First Load JS – The number of assets downloaded when visiting the page from the server. The amount of JS shared by all is shown as a separate metric.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run start`
 
-### `npm run eject`
+next start(npm run start will do the build and start command) starts the application in production mode. The application should be compiled with next build first.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application will start at http://localhost:3000 by default. The default port can be changed with -p, like so:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`npx next start -p 4000`
