@@ -3,7 +3,7 @@ import data from "../public/Static/dataProfile";
 import aboutStyles from '../styles/about.module.css'
 import Image from 'next/image'
 
-import ProfilePlaceholder from "../public/Assets/Graphics/KittyPlaceholder.svg";
+// import ProfilePlaceholder from "../public/Assets/Graphics/KittyPlaceholder.svg";
 
 export default function PersonProfile() {
   return (
@@ -13,9 +13,9 @@ export default function PersonProfile() {
           <div
             style={item.style1}
             className={
-              index % 2 == 0
-                ? "BioContainer BioContainerLeft"
-                : "BioContainer BioContainerRight"
+              index % 2 === 0
+                ? "aboutStyles.BioContainer aboutStyles.BioContainerLeft"
+                : "aboutStyles.BioContainer aboutStyles.BioContainerRight"
             }
           >
             <h3 style={{ color: item.Color }}>{item.Name}</h3>
@@ -24,9 +24,9 @@ export default function PersonProfile() {
           <div
             style={item.style2}
             className={
-              index % 2 == 0
-                ? "HeadshotContainer HeadshotContainerRight"
-                : "HeadshotContainer HeadshotContainerLeftt"
+              index % 2 === 0
+                ? "aboutStyles.HeadshotContainer aboutStyles.HeadshotContainerRight"
+                : "aboutStyles.HeadshotContainer aboutStyles.HeadshotContainerLeft"
             }
           >
             <Image src="https://via.placeholder.com/350" alt={item.ProfilePicAlt} width="400" height="500"/>

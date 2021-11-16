@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 
 export default function Navbar (){
   const { asPath } = useRouter();
-  console.log("Hello "+ asPath);
+  // console.log("Hello "+ asPath);
     return (
       
       <div>

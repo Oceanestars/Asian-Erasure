@@ -12,11 +12,15 @@ export default function Pitfalls () {
 ];
   const [currentTimeline, setTimeline] = useState(firstTimeline);
   const temp = "Relevant Movies \n";
+  const description="Click one of the card below to change the timeline."
   return (
     <div id={pitfallsStyles.wholeBody}>
         <Jumbotron topHeader={"Past Works"} header={"Asian Pitfalls"} body={bodyText} />
       <div id={pitfallsStyles.timeline} >{currentTimeline}</div>
-      <h2 style={{ float: "left", fontFamily: "Nunito"}}>{temp}</h2><br/>
+      <div id={pitfallsStyles.explanationArea}>
+        <h2>{temp}</h2>
+        <p>{description}</p><br/>
+      </div>
       <ul>
         {data.map((item) => (
           <li>

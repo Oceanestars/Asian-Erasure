@@ -34,7 +34,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Wu",
     "OtherLanguage": "吴恬敏",
-    "Role": "American Actor",
+    "Role": "Actress",
     "CulturalConnections": "Chinese",
     "Links": "https://www.imdb.com/name/nm2090422/",
     "Image": "https://live.staticflickr.com/65535/51546165211_2827d0b7d4.jpg"
@@ -54,7 +54,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Chan",
     "OtherLanguage": "陳靜",
-    "Role": "British Actor",
+    "Role": "Actress",
     "CulturalConnections": "Chinese",
     "Links": "https://www.gemmachan.com",
     "Image": "https://live.staticflickr.com/65535/51546408748_563b35ac4e.jpg"
@@ -64,7 +64,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Miyazaki",
     "OtherLanguage": "宮崎 駿",
-    "Role": "Japanese animator",
+    "Role": "Animator",
     "CulturalConnections": "Japanese",
     "Links": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
     "Image": "https://live.staticflickr.com/65535/51546892399_936dae745d.jpg"
@@ -84,7 +84,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Wan",
     "OtherLanguage": "溫子仁",
-    "Role": "Film producer",
+    "Role": "Film Producer",
     "CulturalConnections": "Malaysian Chinese",
     "Links": "https://en.wikipedia.org/wiki/James_Wan",
     "Image": "https://live.staticflickr.com/65535/51547087955_0face43b02.jpg"
@@ -114,7 +114,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Yeoh",
     "OtherLanguage": "楊紫瓊",
-    "Role": "Actor",
+    "Role": "Actress",
     "CulturalConnections": "Malaysian Chinese",
     "Links": "http://michelleyeoh.info",
     "Image": "https://live.staticflickr.com/65535/51546164916_4df0ce47f4.jpg"
@@ -134,7 +134,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Nair",
     "OtherLanguage": "",
-    "Role": "Film producer",
+    "Role": "Film Producer",
     "CulturalConnections": "Indian",
     "Links": "https://en.wikipedia.org/wiki/Mira_Nair",
     "Image": "https://live.staticflickr.com/65535/51547087790_63cbaec41e.jpg"
@@ -174,7 +174,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Sakane",
     "OtherLanguage": "坂根田鶴子, 佐久間田鶴子",
-    "Role": "Film director",
+    "Role": "Film Director",
     "CulturalConnections": "Japanese",
     "Links": "https://wfpp.columbia.edu/pioneer/tazuko-sakane/",
     "Image": "https://live.staticflickr.com/65535/51546892034_f07e67c526_w.jpg"
@@ -184,7 +184,7 @@ const data = [
     "MiddleName": "",
     "LastName": "Sun",
     "OtherLanguage": "",
-    "Role": "Film director",
+    "Role": "Film Director",
     "CulturalConnections": "Chinese",
     "Links": "https://www.imdb.com/name/nm0839000/?ref_=nmls_hd",
     "Image": "https://live.staticflickr.com/65535/51545366897_465d6bca9c_w.jpg"

@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+$color-primary: #46b893;
+$font-primary: "Nunito", sans-serif;
+
 #welcomeBody {
   margin: auto;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: $font-primary;
   width: 70%;
 }
 
@@ -12,7 +16,7 @@
   font-family: "Playfair Display", serif;
   font-weight: 200;
   margin-top: 50px;
-  color: #46b893;
+  color: $color-primary;
 }
 
 .HeaderBox {
@@ -28,20 +32,19 @@
   line-height: 1.75;
 }
 
-
-#NavOverride {
-  color: #46b893;
+.NavOverride {
+  color: $color-primary;
 }
 
 /* Override the nav bar */
 #welcomeBody a,
-#NavOverride {
+.NavOverride {
   text-decoration: none;
   font-size: 100%;
 }
 
 #welcomeBody a:hover,
-#NavOverride:hover {
+.NavOverride:hover {
   text-decoration: underline;
 }
 
@@ -121,7 +124,6 @@
 #aboutButton {
   background-color: #54c7ee;
 }
-
 
 @media only screen and (max-width: 650px) {
   .rowInline {
