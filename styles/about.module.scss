@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+@import "utilities/variables";
 
 .ProfileContainer {
   display: flex;
@@ -10,7 +11,7 @@
 .OurStoryContainer {
   max-width: 860px;
   border: 1px solid #797979;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: $box-shadow;
   margin: 20px auto;
   border-radius: 30px;
   padding: 60px 5px;
@@ -19,8 +20,8 @@
 }
 
 .OurStoryContainer h1 {
-  color: #46b893;
-  font-family: "Nunito", Helvetica, sans-serif;
+  color: $turquoise;
+  font-family: $font-primary;
   font-weight: 700;
   font-size: 30px;
   text-transform: capitalize;
@@ -29,7 +30,7 @@
 
 .OurStoryContainer p {
   color: #454444;
-  font-family: "Nunito", Helvetica, sans-serif;
+  font-family: $font-primary;
   line-height: 32px;
   font-size: 18px;
   max-width: 660px;
@@ -43,7 +44,7 @@
 
 .TeamMemberContainer h2 {
   color: #454444;
-  font-family: "Nunito", Helvetica, sans-serif;
+  font-family: $font-primary;
   font-weight: 700;
   font-size: 26px;
   text-transform: capitalize;
@@ -57,7 +58,7 @@
 }
 
 .TeamMemberContainer h3 {
-  font-family: "Playfair Display", Times, serif;
+  font-family: $font-secondary;
   font-weight: 700;
   font-size: 24px;
   text-transform: capitalize;
@@ -87,7 +88,7 @@
 
 .TeamMemberContainer p {
   color: #454444;
-  font-family: "Nunito", Helvetica, sans-serif;
+  font-family: $font-primary;
   font-size: 18px;
   line-height: 25px;
 }

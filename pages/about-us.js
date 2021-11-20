@@ -1,8 +1,6 @@
 import React from "react";
 import PersonProfile from "../components/profile";
-// import "./css/Style.css";
-import aboutStyles from '../styles/about.module.css'
-
+import aboutStyles from '../styles/about.module.scss'
 
 export default function AboutUs() {
   const title = "Our story";

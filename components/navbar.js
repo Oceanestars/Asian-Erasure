@@ -1,7 +1,7 @@
 import React from "react"
 // import { NavLink } from "react-router-dom";
 import Link from 'next/link'
-import navStyles from '../styles/navbar.module.css'
+import navStyles from '../styles/navbar.module.scss'
 import { useRouter } from 'next/router';
 
 export default function Navbar (){

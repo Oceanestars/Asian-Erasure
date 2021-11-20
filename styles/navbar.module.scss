@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 #navBar {
   display: flex;
@@ -18,4 +19,9 @@
 
 .active {
   border-bottom: 3px solid #46b893;
+}
+
+/* To do: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+T9hacks also implemented this */
+@media only screen and (max-width: 650px) {
 }

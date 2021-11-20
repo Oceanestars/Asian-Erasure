@@ -2,7 +2,7 @@ import React, { useState }  from "react";
 import MovieCards from "../components/movieCards";
 import data from "../public/Static/data";
 import Jumbotron from "../components/jumbotron";
-import pitfallsStyles from '../styles/pitfalls.module.css'
+import pitfallsStyles from '../styles/pitfalls.module.scss'
 
 
 const bodyText = "The film industry had many shocking Asian representation through the year. There have been work containing white face, misrepresentation, and racism. Below is a timeline container past work that have fail to accuratly represent the AAPI community. Our goal is to inform so we can learn from our mistakes";

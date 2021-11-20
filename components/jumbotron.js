@@ -1,10 +1,9 @@
 import React from "react";
-import trailblazersStyles from '../styles/trailblazers.module.css'
+import trailblazersStyles from '../styles/trailblazers.module.scss'
 
 const Jumbotron = (props) => {
   return (
     <div id={trailblazersStyles.jumbotronStyle}> 
-
         <div className={trailblazersStyles.HeaderBox}>
           <span className={trailblazersStyles.topHeader}>{props.topHeader}</span>
           <br />

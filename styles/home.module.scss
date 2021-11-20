@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
-
-$color-primary: #46b893;
-$font-primary: "Nunito", sans-serif;
+@import "utilities/variables";
 
 #welcomeBody {
   margin: auto;
@@ -12,29 +10,32 @@ $font-primary: "Nunito", sans-serif;
 }
 
 #welcomeBody h2 {
-  font-size: 3vw;
+  font-size: 3.4vw;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: $font-secondary;
   font-weight: 200;
   margin-top: 50px;
-  color: $color-primary;
+  color: $turquoise;
 }
 
 .HeaderBox {
   margin: auto;
 }
 
+#Jumbotron {
+  width: 60%;
+  margin: 6% auto 9% auto;
+}
 .bodyJumbotron {
-  color: #222;
-  width: 50%;
-  margin: 4% auto;
-  font-size: 1.2vw;
+  color: #000000;
+  margin: 5% auto;
+  font-size: 1.6vw;
   text-align: center;
   line-height: 1.75;
 }
 
 .NavOverride {
-  color: $color-primary;
+  color: $turquoise;
 }
 
 /* Override the nav bar */
@@ -57,12 +58,12 @@ $font-primary: "Nunito", sans-serif;
 }
 
 .customCard {
-  border: 1px solid #797979;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  box-shadow: $box-shadow;
   border-radius: 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: $font-primary;
   width: 30%;
-  height: 100%;
+  height: 90%;
 }
 
 .button {
@@ -86,7 +87,7 @@ $font-primary: "Nunito", sans-serif;
   margin: auto;
   text-align: center;
   margin-bottom: 10%;
-  color: #222;
+  color: #000000;
   font-size: 1.2vw;
   text-align: center;
   line-height: 1.75;
@@ -96,7 +97,7 @@ $font-primary: "Nunito", sans-serif;
   margin: 13% 0 5% 0;
 }
 #trailblazersCard h3 {
-  color: #4162aa;
+  color: $dark-blue;
 }
 
 #trailblazersButton a,
@@ -107,23 +108,23 @@ $font-primary: "Nunito", sans-serif;
 }
 
 #trailblazersButton {
-  background-color: #4162aa;
+  background-color: $dark-blue;
 }
 
 #pitfallsCard h3 {
-  color: #df6b50;
+  color: $orange-red;
 }
 
 #pitfallsButton {
-  background-color: #df6b50;
+  background-color: $orange-red;
 }
 
 #aboutCard h3 {
-  color: #54c7ee;
+  color: $light-blue;
 }
 
 #aboutButton {
-  background-color: #54c7ee;
+  background-color: $light-blue;
 }
 
 @media only screen and (max-width: 650px) {
@@ -137,5 +138,32 @@ $font-primary: "Nunito", sans-serif;
     margin: auto;
     align-items: center;
     gap: 40px;
+  }
+
+  .customCard {
+    width: 60%;
+    height: 100%;
+  }
+
+  .customCard h3 {
+    font-size: 80%;
+  }
+
+  #Jumbotron {
+    width: 70%;
+  }
+
+  .bodyJumbotron {
+    font-size: 0.6em;
+  }
+
+  .customCard p {
+    font-size: 0.6em;
+  }
+
+  #trailblazersButton a,
+  #pitfallsButton a,
+  #aboutButton a {
+    font-size: 2.3vw;
   }
 }

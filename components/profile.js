@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../public/Static/dataProfile";
-import aboutStyles from '../styles/about.module.css'
+import aboutStyles from '../styles/about.module.scss'
 import Image from 'next/image'
 
 // import ProfilePlaceholder from "../public/Assets/Graphics/KittyPlaceholder.svg";
