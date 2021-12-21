@@ -1,3 +1,6 @@
+import Dan from "../Assets/Images/Dan.svg";
+// @import "../Assets/Images/Dan.svg";
+
 const data = [
   {
     Name: "Grace",
@@ -18,8 +21,7 @@ const data = [
   {
     Name: "Dan",
     Bio: "Dan is a passionate and driven individual striving to maximize the impact that coding has for societies, desiring to work with nonprofit organizations in developing tools to assist in solving social issues.",
-    ProfilePic:
-      "https://live.staticflickr.com/65535/51546408838_c9a1f527dc.jpg",
+    ProfilePic: "Dan",
     ProfilePicAlt: "Dan Profile Picture",
     Color: "#54C7EE",
   },

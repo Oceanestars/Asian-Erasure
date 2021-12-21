@@ -23,6 +23,7 @@
 }
 
 #Jumbotron {
+  background-color: #fff;
   width: 60%;
   margin: 6% auto 9% auto;
 }
@@ -67,7 +68,7 @@
 }
 
 .button {
-  border: 1px solid #797979;
+  // border: 1px solid #797979;
   color: white;
   border-radius: 10px;
   margin: 10% 10%;
@@ -127,6 +128,26 @@
   background-color: $light-blue;
 }
 
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV
+
+// 769px — 1024px: Small screens, laptops
+@media only screen and (max-width: 1024px) {
+  .customCard h3 {
+    font-size: 95%;
+  }
+}
+
+// 650px — 768px
+@media only screen and (max-width: 768px) {
+  .customCard h3 {
+    font-size: 85%;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   .rowInline {
     display: flex;
@@ -165,5 +186,11 @@
   #pitfallsButton a,
   #aboutButton a {
     font-size: 2.3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .customCard h3 {
+    color: aqua;
   }
 }

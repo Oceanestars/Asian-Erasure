@@ -9,6 +9,16 @@
   /* position: static; */
 }
 
+.navBarMobile {
+  background-color: transparent;
+  border: transparent;
+  width: 50px;
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+
 .underline {
   font-size: 1em;
 }
@@ -23,5 +33,18 @@
 
 /* To do: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
 T9hacks also implemented this */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
+  .navBarMobile {
+    display: flex;
+  }
+  #navBar {
+    display: flex;
+    // background-color: #ebfff9;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 30px;
+    border: 1px solid #797979;
+  }
+  #navBar.hidden {
+    display: none !important;
+  }
 }

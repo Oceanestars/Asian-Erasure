@@ -9,7 +9,8 @@
 }
 
 .OurStoryContainer {
-  max-width: 860px;
+  // max-width: 860px;
+  width: 70%;
   border: 1px solid #797979;
   box-shadow: $box-shadow;
   margin: 20px auto;
@@ -33,12 +34,14 @@
   font-family: $font-primary;
   line-height: 32px;
   font-size: 18px;
-  max-width: 660px;
+  // max-width: 660px;
+  width: 60%;
   margin: 35px auto 0;
 }
 
 .TeamMemberContainer {
-  max-width: 900px;
+  // max-width: 900px;
+  width: 60%;
   margin: 100px auto;
 }
 
@@ -49,6 +52,7 @@
   font-size: 26px;
   text-transform: capitalize;
   max-width: 200px;
+  // width: 70%;
   margin: 0 auto 10px;
   border-bottom: 10px solid transparent;
   padding: 5px;
@@ -63,6 +67,7 @@
   font-size: 24px;
   text-transform: capitalize;
   max-width: 75px;
+  // width: 30%;
   margin: 0 auto 24px;
   border-bottom: 10px solid transparent;
   padding: 5px;
@@ -100,14 +105,118 @@
 .BioContainerLeft {
   order: 1;
   background-color: #fff;
+  margin-right: 50px;
 }
 .BioContainerRight {
   order: 2;
   background-color: #fff;
+  margin-left: 50px;
 }
 .HeadshotContainerLeft {
   order: 1;
+  width: 100%;
 }
 .HeadshotContainerRight {
   order: 2;
+  width: 100%;
 }
+
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV
+
+// 769px — 1024px: Small screens, laptops
+@media only screen and (max-width: 1024px) {
+  .OurStoryContainer {
+    width: 80%;
+  }
+
+  .OurStoryContainer h1 {
+    font-size: 26px;
+  }
+
+  .OurStoryContainer p {
+    line-height: 30px;
+    font-size: 16px;
+    width: 70%;
+    margin: 25px auto 0;
+  }
+
+  .TeamMemberContainer {
+    width: 70%;
+  }
+
+  .TeamMemberContainer h3 {
+    font-size: 20px;
+    max-width: 60px;
+    margin: 0 auto 14px;
+  }
+
+  .TeamMemberContainer p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .OurStoryContainer {
+    width: 90%;
+    padding: 45px 5px;
+  }
+
+  .OurStoryContainer p {
+    width: 85%;
+  }
+
+  .TeamMemberContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .OurStoryContainer {
+    padding: 35px 5px;
+  }
+
+  .OurStoryContainer h1 {
+    font-size: 22px;
+  }
+
+  .OurStoryContainer p {
+    line-height: 20px;
+    font-size: 12px;
+    width: 80%;
+    margin: 20px auto 0;
+  }
+
+  .TeamMemberContainer {
+    width: 80%;
+  }
+
+  .TeamMemberContainer h3 {
+    font-size: 16px;
+    max-width: 60px;
+    margin: 0 auto 12px;
+  }
+
+  .TeamMemberContainer p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+// @media only screen and (max-width: 481px) {
+//   .OurStoryContainer {
+//     padding: 45px 5px;
+//   }
+
+//   .OurStoryContainer p {
+//     width: 85%;
+//   }
+
+//   .TeamMemberContainer {
+//     width: 80%;
+//   }
+// }
