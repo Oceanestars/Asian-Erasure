@@ -65,7 +65,16 @@
   color: #000000;
   width: 60%;
   margin: 5% auto 8% auto;
-  font-size: 10%;
+  font-size: 90%;
   text-align: center;
   line-height: 1.75;
+}
+
+@media only screen and (max-width: 600px) {
+  .bodyJumbotron {
+    font-size: 70%;
+  }
+  #jumbotronStyle {
+    margin-top: 10%;
+  }
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import "utilities/variables";
 
 #navBar {
   display: flex;
@@ -12,7 +13,7 @@
 .navBarMobile {
   background-color: transparent;
   border: transparent;
-  width: 50px;
+  width: 12%;
   display: none;
   position: absolute;
   top: 25px;
@@ -28,7 +29,7 @@
 }
 
 .active {
-  border-bottom: 3px solid #46b893;
+  border-bottom: 3px solid $turquoise;
 }
 
 /* To do: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
@@ -39,10 +40,17 @@ T9hacks also implemented this */
   }
   #navBar {
     display: flex;
-    // background-color: #ebfff9;
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    box-shadow: $box-shadow;
     border-radius: 30px;
     border: 1px solid #797979;
+    padding: 10%;
+    width: 60%;
+    justify-content: center;
+    margin: 8% auto 5% auto;
+  }
+  #navBar a:hover {
+    background-color: $turquoise;
+    width: 100%;
   }
   #navBar.hidden {
     display: none !important;

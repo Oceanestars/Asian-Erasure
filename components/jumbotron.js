@@ -8,7 +8,7 @@ const Jumbotron = (props) => {
           <span className={trailblazersStyles.topHeader}>{props.topHeader}</span>
           <br />
           <h2 style={{color:"black",   marginTop: "26px"}}> {props.header}</h2>
-          <p className={trailblazersStyles.bodyJumbotron} style={{fontSize:"1.2vw"}}>{props.body}</p>
+          <p className={trailblazersStyles.bodyJumbotron} >{props.body}</p>
           </div>
     </div>
   );

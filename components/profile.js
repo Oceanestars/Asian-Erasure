@@ -30,7 +30,7 @@ export default function PersonProfile() {
             }
           >
             <Image
-              src="https://via.placeholder.com/350"
+              src={item.ProfilePic}
               alt={item.ProfilePicAlt}
               width="400"
               height="500"
