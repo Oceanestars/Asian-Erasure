@@ -3,12 +3,18 @@ import data from "../public/Static/dataProfile";
 import aboutStyles from "../styles/about.module.scss";
 import Image from "next/image";
 
-// import ProfilePlaceholder from "../public/Assets/Graphics/KittyPlaceholder.svg";
+import ProfilePlaceholder1 from "../public/Assets/Images/Grace.svg";
+import ProfilePlaceholder2 from "../public/Assets/Images/Oceane.svg";
+import ProfilePlaceholder3 from "../public/Assets/Images/Dan.svg";
+
 
 export default function PersonProfile() {
+  var picArray = [ProfilePlaceholder1,ProfilePlaceholder2, ProfilePlaceholder3];
+  // console.log(picArray[index].src);
   return (
     <section>
       {data.map((item, index) => (
+        
         <li key={index} className={aboutStyles.ProfileContainer}>
           <div
             style={item.style1}
@@ -30,7 +36,7 @@ export default function PersonProfile() {
             }
           >
             <Image
-              src={item.ProfilePic}
+              src={picArray[index].src}
               alt={item.ProfilePicAlt}
               width="400"
               height="500"
